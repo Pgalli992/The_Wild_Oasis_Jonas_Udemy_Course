@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
+
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -20,4 +21,5 @@ module.exports = {
     "no-unused-vars": "warn",
     "react/prop-types": "off",
   },
+  extends: "react-app",
 };
